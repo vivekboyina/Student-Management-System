@@ -103,33 +103,46 @@ This approach demonstrates fundamental file handling and data persistence concep
 ## 🖥️ Example Console Output
 
 ```
-===== Student Management System =====
+Data loaded Successfully
+
+----------Student Management System----------
+           ------Features------
 1. Add Student
 2. View Students
-3. Update Student
+3. Search Student
 4. Delete Student
-5. Search Student
-6. Exit
-=======================================
-Enter your choice: 1
-
-Enter Student ID: 101
-Enter Student Name: John Doe
-Enter Student Grade: A
-
-Student added successfully!
-
-===== Student Management System =====
+5. Update Student
+6. Save Progress
+7. Exit
+NOTE : Exiting without save progress doesnot save the changes did till now
+--------------------------------------------------------------------------
+Enter your choice : 3
+Enter the roll number of the student to be searched : 
+1
+--------------------------------------------------------------------------
+Roll Number : 1
+Name : Vivek
+Age : 19
+Gender : Male
+Branch : CSE
+Current Semester : 5
+Email : vivek@java.com
+Phone Number : 9123456781
+--------------------------------------------------------------------------
+----------Student Management System----------
+           ------Features------
 1. Add Student
 2. View Students
-3. Update Student
+3. Search Student
 4. Delete Student
-5. Search Student
-6. Exit
-=======================================
-Enter your choice: 2
-
-ID: 101 | Name: John Doe | Grade: A
+5. Update Student
+6. Save Progress
+7. Exit
+NOTE : Exiting without save progress doesnot save the changes did till now
+--------------------------------------------------------------------------
+Enter your choice : 7
+Thanks for your valuable time
+Hope you enjoyed SMS!!!
 ```
 
 ---
